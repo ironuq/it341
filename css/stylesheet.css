@@ -104,11 +104,6 @@ a:hover {
     font-size: 17px;
 }
 
-.fixed-bottom{
-    background-color: #f6f6f6;
-}
-
-
 @media screen and (min-width: 961px) {
     .navi-ad-wrapper {
         position: sticky;
@@ -117,6 +112,7 @@ a:hover {
 
     .fixed-bottom {
         display: none;
+        background-color: #f6f6f6;
     }
 
 }
