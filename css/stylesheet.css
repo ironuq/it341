@@ -1,0 +1,169 @@
+/*Color code: https://material.io/resources/color/#!/?view.left=1&view.right=0&primary.color=009688&secondary.color=9C27B0*/
+/*Primary: #009688 P-Light: #52c7b8 P—Dark: #00675b
+Secondary: #9c27b0 S-Light: #d05ce3 S-Dark: #6a0080*/
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    border-bottom: solid #52c7b8;
+    padding-bottom: 7px;
+    margin-bottom: 0;
+}
+
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    background-color: #f6f6f6;
+}
+
+.contents {
+    width: 960px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.logo {
+    width: 960px;
+}
+
+.article-wrapper {
+    width: 730px;
+    float: left;
+}
+
+.article-img {
+    float: right;
+    width: 300px;
+}
+
+.ads {
+    width: 200px;
+    text-align: right;
+    margin-left: 30px;
+}
+
+
+.header {
+    padding: 10px 0;
+    background-color: #f6f6f6;
+    border-bottom: solid #00675b;
+}
+
+.header a{
+    border: none;
+}
+
+.header a:hover{
+    border:none;
+}
+
+
+.navi-ad-wrapper {
+    float: left;
+    text-align: left;
+
+}
+
+a {
+    text-decoration: none;
+    border-bottom: 1px dotted #000;
+    color: black;
+}
+
+a:visited{
+    color: #6a0080;
+}
+
+a:visited:hover{
+    color: #6a0080;
+}
+
+a:hover {
+    text-decoration: none;
+    border-bottom: 1px solid #000;
+    color: black;
+}
+
+.footer {
+    clear: both;
+    width: auto;
+    padding: 25px;
+}
+
+.footer-content {
+    text-align: center;
+}
+
+.navi{
+    font-size: 17px;
+}
+
+
+@media screen and (min-width: 961px) {
+    .navi-ad-wrapper {
+        position: sticky;
+        top: 20px;
+    }
+
+    .fixed-bottom {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 960px) {
+    .contents {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .logo {
+        width: 100%;
+    }
+
+    .article-wrapper {
+        width: 100%;
+    }
+
+    .img-wrapper {
+        text-align: center;
+    }
+
+    .article-img {
+        width: 40%;
+        float: none;
+    }
+
+    .ads {
+        width: 80%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .navi {
+        display: none;
+    }
+
+    .navi-ad-wrapper {
+        width: 100%;
+    }
+
+    .navbar{
+        background-color: #52c7b8;
+        border-top: solid 1px #009688;
+    }
+
+    .navbar-toggler{
+        margin-left: 10px;
+        background-color: #52c7b8;
+    }
+
+    .navigation{
+        background-color: #52c7b8;
+    }
+}
+
+
+
