@@ -1,1 +1,99 @@
+<!--This website is responsive, has 2 layouts for pc, tablet access and mobile access to enhance legibility. From various types of access.-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <title>TypoPlan</title>
+</head>
+<body>
+<div class="wrapper">
+    <div class="contents">
+        <div class="header">
+            <!--        The logo is temporary, I'm going to remake it-->
+            <a href="https://ironuq.github.io/it341/"><img class="logo" src="Logo2.png" alt="Logo"></a>
+        </div>
+        <!--        I'm planning to place collapsable navigation bar with logo for mobile access using bootstrap, but currently
+        bootstrap CDN is not working for me somehow, so I cannot actually show the complete version, but other parts of this page
+        are complete.-->
+        <!--        For more space for article, I moved the navi column to the right, above the ads.-->
+        <div class="article-wrapper">
+            <p style="margin: 5px 0">
+                <a href="https://ironuq.github.io/it341/">Home</a> > Major languages
+            </p>
+            <h1>Major languages</h1>
+            <p style="text-align: right; font-size: 15px; margin-top: 10px;"><i class="far fa-file-alt"></i> 13 Oct,
+                2020 <i class="fas fa-sync"></i> 18 Nov, 2020</p>
+            <div class="article-content">
+                <div class="lang-wrapper">
+                    <a href="lang_python.html"><h3 style="clear: both;">Python</h3></a>
+                    <p>Language has high readability, easy to understand</p>
+                    <p>Good at scientific computing and machine learning as well</p>
+                    <img class="lang-img" src="icons8-python-480 .png" height="120"/>
+                    <a href="lang_java.html"><h3 style="clear: both;">Java</h3></a>
+                    <p>Mobile app to large-scale development</p>
+                    <p>Language can be used for various purpose</p>
+                    <img class="lang-img" src="icons8-java-480.png" height="120"/>
+                    <a href="lang_ruby.html"><h3 style="clear: both;">Ruby</h3></a>
+                    <p>Intuitive, high productivity</p>
+                    <p>Mainly used for web application development</p>
+                    <img class="lang-img" src="icons8-ruby-programming-language-480.png" height="120"/>
+                </div>
+            </div>
+
+        </div>
+        <div class="navi-ad-wrapper">
+            <div class="navi">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><p>Major languages</p></li>
+                    <ul>
+                        <li><a href="lang_python.html">Python</a></li>
+                        <li><a href="lang_java.html">Java</a></li>
+                        <li><a href="lang_ruby.html">Ruby</a></li>
+                    </ul>
+                </ul>
+            </div>
+            <div class="ads">
+                <img src="unnamed.png" alt="ad">
+                <img src="unnamed.png" alt="ad">
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footer-content">
+                <p>© 2020 Ryotaro Inoue All rights reserved.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="fixed-bottom">
+    <div class="collapse" id="navbarToggleExternalContent">
+        <div class="navigation p-4">
+            <ul>
+                <li><a href="https://ironuq.github.io/it341/">Home</a></li>
+                <li>Major languages</li>
+                <ul>
+                    <li><a href="https://ironuq.github.io/it341/lang_python">Python</a></li>
+                    <li><a href="https://ironuq.github.io/it341/lang_java">Java</a></li>
+                    <li><a href="https://ironuq.github.io/it341/lang_ruby">Ruby</a></li>
+                </ul>
+            </ul>
+        </div>
+    </div>
+    <nav class="navbar navbar-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent"
+                aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </nav>
+</div>
+<script src="js/jquery-3.5.1.min.js"></script>
+<script src="js/popper.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
 
