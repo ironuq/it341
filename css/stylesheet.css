@@ -55,7 +55,7 @@ p {
 code {
     font-family: Menlo, Consolas, 'DejaVu Sans Mono', monospace;
     background-color: #394034;
-    margin: 20px 0;
+    padding: 10px 30px;
     display: block;
     color: #f8f8f2;
 }
